@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+caption{
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+.miTablaCentreda{
+    display: flex;
+    justify-content: center;
+}
+.Contenedor{
+    display: flex;
+    justify-content: center;
+}
+.Subtitulo{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
