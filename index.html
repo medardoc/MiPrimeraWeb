@@ -79,9 +79,18 @@
     <br>
     <!--Buscador-->
     <div class="CentrarBuscador"><div class="InputContainer">
-        <input placeholder="Search.." id="input" class="input" name="text" type="text">
-        
+        <input placeholder="Buscar en youtube..." id="searchInput" class="input" name="text" type="text">
+        <button onclick="buscarYoutube()">Buscar</button>
       </div></div>
+      <script>
+        function buscarYoutube() {
+            var query = document.getElementById('searchInput').value;
+            if(query.trim() !==''){
+                var url ='https://www.youtube.com/' + encodeURIComponent(query);
+                window.location.href = url;
+            }
+        }
+      </script>
 
 <!--Con esta etiqueta damos espacio-->
 <br>
